@@ -46,8 +46,10 @@
     <p> 
         <strong>Referencias</strong> 
         </br>
-        [Repositorio do livro do Fernando Anselmo]: https://github.com/fernandoans/publicacoes/tree/master/LivroAsm
-        </br>
-        [Livro do Frederico Lamberti (Neste repositorio)]: https://github.com/supppus/asm-aprendizado
+
+        [Repositorio do livro do Fernando Anselmo](https://github.com/fernandoans/publicacoes/tree/master/LivroAsm)
+
+        [Livro do Frederico Lamberti (Neste repositorio)](https://github.com/supppus/asm-aprendizado)
+
     </p>
 </footer>
