@@ -1,6 +1,25 @@
 ##### Todo meu aprendizado em Assembly, usando o assembler NASM.
 
-<br/>
+</br>
+
+###### Tabela padrao para segmento de dados
+
+```
+    LF equ 0xA ; Line Feed
+    NULL
+    equ 0xD ; Final da String
+    SYS_EXIT equ 0x1 ; Codigo de chamada para finalizar
+    RET_EXIT equ 0x0 ; Operacao com Sucesso
+    STD_IN
+    equ 0x0 ; Entrada padrao
+    STD_OUT
+    equ 0x1 ; Saida padrao
+    SYS_READ equ 0x3 ; Operacao de Leitura
+    SYS_WRITE equ 0x4 ; Operacao de Escrita
+    SYS_CALL equ 0x80 ; Envia informacao ao SO
+```
+
+</br>
 
 ###### Condicionais
 
@@ -13,6 +32,8 @@
     <li>jne !=</li>
 </ul>
 
+###### [ ! ] Antes vem a instrucao de comparacao (CMP register, register)
+
 </br>
 
 ###### Incondicionais
@@ -21,3 +42,15 @@
     <li>jmp ...block ; Pula para uma secao</li>
     <li>call ...block ; Chama uma secao e com o ret ele continua o code</li>
 </ul>
+
+</br>
+
+<footer>
+    <p> 
+        <strong>Referencias</strong> 
+        </br>
+        <href link="https://github.com/fernandoans/publicacoes/tree/master/LivroAsm">Repositorio do livro do Fernando Anselmo</href>
+        </br>
+        <href link="https://github.com/supppus/asm-aprendizado">Livro do Frederico Lamberti (Neste repositorio)</href>
+    </p>
+</footer>
