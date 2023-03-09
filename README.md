@@ -46,5 +46,5 @@
 
 [Repositorio do livro do Fernando Anselmo](https://github.com/fernandoans/publicacoes/tree/master/LivroAsm)
 
-[Livro do Frederico Lamberti (Neste repositorio)](https://github.com/supppus/asm-aprendizado)
+[Livro do Frederico Lamberti (Neste repositorio)](/Linguagem Assembly para i386 e x86-64 v0.8.5.pdf)
 
