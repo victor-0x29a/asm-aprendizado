@@ -6,14 +6,11 @@
 
 ```
     LF equ 0xA ; Line Feed
-    NULL
-    equ 0xD ; Final da String
+    NULL equ 0xD ; Final da String
     SYS_EXIT equ 0x1 ; Codigo de chamada para finalizar
     RET_EXIT equ 0x0 ; Operacao com Sucesso
-    STD_IN
-    equ 0x0 ; Entrada padrao
-    STD_OUT
-    equ 0x1 ; Saida padrao
+    STD_IN equ 0x0 ; Entrada padrao
+    STD_OUT equ 0x1 ; Saida padrao
     SYS_READ equ 0x3 ; Operacao de Leitura
     SYS_WRITE equ 0x4 ; Operacao de Escrita
     SYS_CALL equ 0x80 ; Envia informacao ao SO
@@ -49,8 +46,8 @@
     <p> 
         <strong>Referencias</strong> 
         </br>
-        <href link="https://github.com/fernandoans/publicacoes/tree/master/LivroAsm">Repositorio do livro do Fernando Anselmo</href>
+        [Repositorio do livro do Fernando Anselmo](https://github.com/fernandoans/publicacoes/tree/master/LivroAsm)
         </br>
-        <href link="https://github.com/supppus/asm-aprendizado">Livro do Frederico Lamberti (Neste repositorio)</href>
+        [Livro do Frederico Lamberti (Neste repositorio)](https://github.com/supppus/asm-aprendizado)
     </p>
 </footer>
