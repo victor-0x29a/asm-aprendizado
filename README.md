@@ -4,7 +4,7 @@
 
 ###### Tabela padrao para segmento de dados
 
-```
+```assembly
     LF equ 0xA ; Line Feed
     NULL equ 0xD ; Final da String
     SYS_EXIT equ 0x1 ; Codigo de chamada para finalizar
@@ -42,14 +42,9 @@
 
 </br>
 
-<footer>
-    <p> 
-        <strong>Referencias</strong> 
-        </br>
 
-        [Repositorio do livro do Fernando Anselmo](https://github.com/fernandoans/publicacoes/tree/master/LivroAsm)
 
-        [Livro do Frederico Lamberti (Neste repositorio)](https://github.com/supppus/asm-aprendizado)
+[Repositorio do livro do Fernando Anselmo](https://github.com/fernandoans/publicacoes/tree/master/LivroAsm)
 
-    </p>
-</footer>
+[Livro do Frederico Lamberti (Neste repositorio)](https://github.com/supppus/asm-aprendizado)
+
